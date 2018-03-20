@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>formatting html</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+
+        #myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #myBtn:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        h1 {
+            color: firebrick;
+            font-weight: inherit;
+            text-align: center;
+            font-size: 22px;
+            font-family: monospace
+        }
+
+        h2 {
+            color: darkblue;
+            font-weight: inherit;
+            text-align: center;
+            font-size: 22px;
+            font-family: cursive
+        }
+
+        h3 {
+            color: darkorange;
+            font-weight: inherit;
+            text-align: left;
+            font-size: 22px;
+            font-family: serif
+        }
+
+        p {
+            color: darkorchid;
+            font-weight: inherit;
+            text-align: justify;
+            font-size: 22px;
+            font-family: inherit
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class=".container"></div>
+    <video autoplay loop id="Storm_Front">
+        <source src="Storm_Front.mp4" type="video/mp4">
+        </video>
+    <div class="content">
+        <h1>Storm_Front</h1>
+        <p>A Review of Dresden_Files: Storm Front</p>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+
+    </div>
+    <script>
+        var video = document.getElementById("Storm_Front");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+
+    </script>
+
+
+    <h2>
+        Dresden Files: Storm Front
+    </h2>
+    <p>
+        The Dresden Files is a series of stories following a wizard in chicago by the name Harry Dresden who works with the police to stop crimes of the supernatural. He works with Officer Murphy a detective from Special Investigation but also works as an idependent private investigator of the supernatural. Storm Front is the first book in the series following Dresden who is called in to investigate a murder at the Madison Hotel.
+    </p>
+
+    <h3>
+        <strong>Review Of The Book</strong>
+    </h3>
+    <p>
+        The Book had a lovely taste of smart-ass comment and emotion to keep me hooked to the book to the end it honsetly didnt throw all at once but it didnt space it out too far to forget about them. The book had a taste to realism that could seem plausible to our world. my favorite character will always be bob who is honestly very hilarious in the whole story and more of a smart ass than harry. My Favorite conversation piece was from the book between harry and bob.<b>harry: You're supposed to be a spirit of intellect. i don't understand why your obsessed with sex." bob: " Its an academic interest, Harry."</b> i will honstly question why bob loves sex so much. What the book did do that i didnt expect it merged the two events in Dresden life and made it a whole story instead of story seperate problems and one gets solved <mark>like most books i read</mark>.
+    </p>
+
+    <h1> Some Favorite lines and saying from the book!</h1>
+
+    <blockquote>Harry: You're supposed to be a spirit of intellect. i don't understand why your obsessed with sex." bob: " Its an academic interest, Harry."
+    </blockquote>
+    <del> bob loves susan </del>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!--
+Create a review of a Movie, Book, or TV show.
+
+Applying color and font styles is encouraged but not required.
+
+Include:
+
+Text Formatting
+Strong
+Emphasized
+Small
+Mark
+Del
+ins
+super or subscript
+Quotations
+A short quote
+a block quote
+-->

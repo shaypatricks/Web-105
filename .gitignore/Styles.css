@@ -1,0 +1,47 @@
+.splash {
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#blue {
+    background: #003AFF
+}
+
+#red {
+    background: #FF0000
+}
+
+#yellow {
+    background: #FFFA00
+}
+
+#green {
+    background: #00FF03
+}
+
+#orange {
+    background: #FF6E00
+}
+
+
+#blue2 {
+    background: #003AFF
+}
+
+#red2 {
+    background: #FF0000
+}
+
+#yellow2 {
+    background: #FFFA00
+}
+
+#green2 {
+    background: #00FF03
+}
+
+#orange2 {
+    text-color: #FF6E00
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            min-height: 50px;
+            min-width: 100px;
+        }
+
+        th {
+            text-align: left;
+            font-weight: bold;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: brown;
+            font-size: 18px;
+            padding: 5px;
+
+
+
+
+        }
+
+        td {
+            text-align: left;
+            font-size: 16px;
+            padding: 5px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>hello</th>
+            <th>hello</th>
+            <th>hello</th>
+            <th>hello</th>
+            <th>hello</th>
+        </tr>
+        <tr>
+            <th>hello</th>
+            <td rowspan="2" style="background-color: aqua">d</td>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <th>hello</th>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <th>hello</th>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <th>hello</th>
+            <td colspan='3' style="background-color: bisque">d</td>
+            <td>d</td>
+
+        </tr>
+        <tr>
+            <th>hello</th>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+            <td>d</td>
+        </tr>
+    </table>
+</body>
+</html>

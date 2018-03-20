@@ -1,0 +1,71 @@
+.container {
+    max-width: 1060px;
+    line-height: 4;
+    border: .5px solid #FF0D26;
+    margin: auto 20px;
+    padding: 15px margin: 10 px auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    min-height: 200px;
+    background: rgba(197, 202, 233, .65)
+}
+
+/* you can specify just links inside of 
+nav by listing without commas */
+
+nav {
+    text-align: center
+}
+
+nav a {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 10px 20px;
+    color: dodgerblue;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-decoration: none border: 2px solid
+}
+
+nav a:hover {}
+
+h1,
+h2 {
+    color: black;
+    font-family: sans-serif
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+
+
+    a {
+        padding: 5px 10px;
+        margin: 5px 15px;
+        background: #303F9F;
+        border: 2px #303F9f solid;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #ffffff;
+
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    ul,
+    menu,
+    dir {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+    }

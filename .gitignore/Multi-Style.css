@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    max-width: 1060px;
+    line-height: 4;
+    border: .5px solid #FF0D26;
+    margin: auto 20px;
+    padding: 15px margin: 10 px auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    min-height: 200px;
+    background: rgba(197, 202, 233, .65)
+}
+
+nav {
+    text-align: center
+}
+
+nav a {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 10px 20px;
+    color: dodgerblue;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-decoration: none border: 2px solid
+}
+
+nav a:hover {}
+
+h1,
+h2 {
+    color: black;
+    font-family: sans-serif
+}
+
+body {
+    background-color: wheat
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+iframe {}
+
+input[type=checkbox],
+.Show-Menu {
+    display: none
+}
+
+.wrapper {
+    max-width: 960 px;
+    margin: 0 auto;
+    color: #ecf0f1;
+    font-family: sans-serif;
+}
+
+.wrapper h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navigation li {
+    background: #1a1a1a;
+    flex: 1;
+    text-align: center;
+    transition: all .2s ease;
+}
+
+.navigation li:not(:first-child) {
+    border-left: 2px solid #ecf0f1;
+}
+
+.navigation li:hover {
+    background: #333333 flex:1.1;
+}
+
+.navigation li a {
+    display: block;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .show-menu {
+        background: #342a2a;
+        display: flex;
+        cursor: pointer;
+        padding: 20px 0;
+        justify-content: center;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    input[type=checkbox]:checked ~ .navigation {
+        display: block;
+    }
+}
+
+#hitchhiker {}

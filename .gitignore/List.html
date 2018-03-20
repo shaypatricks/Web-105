@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+    <style>
+        body {
+            background: url(Sky.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            font-family: arial, helvetica, sans-serif;
+            color: #212121;
+        }
+
+        dt {
+            font-weight: bold;
+            color: black;
+            line-height: 2;
+        }
+
+
+        ul li {
+            list-style-type: circle;
+        }
+
+        ul li ul li {
+            list-style-type: disc;
+        }
+
+        .container {
+            min-height: 100px;
+            max-width: 960px;
+            background: rgba(197, 202, 233, .65);
+            border-radius: 5%;
+            border: 6px solid green;
+            margin: 15px auto;
+            padding: 5px 10px 10px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Unordered List</h2>
+        <ul>
+
+            <li>Errands</li>
+            <li>Grocery
+                <ul>
+                    <li>Cheese</li>
+                    <li>Sauce</li>
+                    <li>Dough</li>
+                    <li>Meat</li>
+                    <li>Vegetable</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Ordered List</h2>
+        <ol>
+
+            <li>Schedule</li>
+            <li>School
+                <ol>
+                    <li>Class</li>
+                    <li>Class</li>
+                    <li>Class</li>
+                    <li>Break</li>
+                    <li>Teacher-Assistant</li>
+                </ol>
+
+            </li>
+        </ol>
+
+    </div>
+    <div class="container">
+        <h2> Description List</h2>
+        <dl>
+            <dt>What year did columbus discover America</dt>
+            <dd>Some time in 1492</dd>
+            <dt>When was The Internet Born</dt>
+            <dd>January 1, 1983</dd>
+            <dt>What is the answer to everything</dt>
+            <dd>42</dd>
+        </dl>
+
+    </div>
+</body>
+
+</html>
